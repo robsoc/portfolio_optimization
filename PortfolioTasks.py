@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import dataframe_image as dfi
-from PortfolioOptimizerSPDR import EquityBond, EqualWeight, MinVar, ERC, TargetReturn
+from PortfolioOptimizer import EquityBond, EqualWeight, MinVar, ERC, TargetReturn
 
 plt.rcParams["figure.figsize"] = (12,6)
 plt.style.use('fivethirtyeight')
